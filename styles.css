@@ -71,7 +71,7 @@ header{
 }
 
 nav p{
-    padding: 27px;
+    padding: 27px 21px;
     font-size: 16px;
     transition: all .2s
 }
@@ -182,7 +182,7 @@ nav p:hover{
     radial-gradient(circle at 30% 0%, rgba(30, 55, 78, 0.721) 0%, transparent 35%);
     background-position: center;
     background-repeat: no-repeat;
-    padding: 80px 112px;
+    padding: 80px 110px;
 }
 
 .sub1 h2{
@@ -216,6 +216,7 @@ nav p:hover{
     width: 190px;
     margin-top: 60px;
     margin-left: 660px;
+    transition: all .2s;
 }
 
 #boton2 p{
@@ -354,4 +355,239 @@ nav p:hover{
 
 .div1:hover i{
     transform: translateX(-30px);
+}
+
+.sec4{
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 90px;
+    background-color: #fff;
+}
+
+.title4{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#p5{
+    padding-left: 435px;
+    margin-left: 30px;
+    margin-top: 0;
+    color: rgb(1, 5, 24);
+}
+
+.iconos{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 495px;
+}
+
+#i2{
+    padding-top: 20px;
+    background-color: transparent;
+    color: rgb(1, 5, 24);
+}
+
+#i2:hover{
+    cursor: pointer;
+    color: #266B90;
+}
+
+#i3{
+    padding-top: 20px;
+   background-color: transparent; 
+   color: rgb(1, 5, 24);
+}
+
+#i3:hover{
+    cursor: pointer;
+    color: #266B90;
+}
+
+.pcont{
+    overflow: auto;
+    overflow-y: clip;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.divart{
+    width: 415px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    position: relative;
+    border: none;
+    border-radius: 0px 8px 0 0;
+    color: rgb(1, 5, 24);
+}
+
+.img-container{
+    width: 415px;
+    border: none;
+    border-radius: 8px;
+}
+
+.img-container2{
+    width: 415px;
+    height: 310px;
+    border: none;
+    border-radius: 8px;
+}
+
+.img-art{
+    border-radius: 8px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+    border-radius: 8px;
+}
+
+.span{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    padding: 1px 12px 6px 0;
+    font-size: 16px;
+    font-weight:initial;
+    letter-spacing: -0.2px;
+    border-radius: 0 0 8px 0 ;
+    background-color: white;
+    line-height: 1.5;
+    z-index: 300;
+}
+
+.art-container{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 15px ;
+    width: 415px;
+}
+
+.art-container div{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.art-container div:last-child{
+    border-bottom: none;
+}
+
+.art-container span{
+    font-size: 17px;
+}
+
+.sp2{
+    color: #676974;
+}
+
+footer{
+    width: 100%;
+    height: 95vh;
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #010518;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    background-image: 
+    radial-gradient(circle at 18% 50%, rgba(30, 55, 78, 0.721) 0%, transparent 15%);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.container-footer{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#footer1{
+    display: inline-flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 100px 0 150px;
+    border-right: 1px rgba(255, 255, 255, 0.15) solid;
+}
+
+#img-footer{
+    margin: 250px 50px 25px 85px;
+}
+
+#footer1 p{
+    display: flex;
+    justify-content: center;
+    margin-right: 110px;
+    color: #999b9ac6;
+    transition: all .2s;
+}
+
+#pointer:hover{
+    cursor: pointer;
+    color: white;
+    transition: all .2s;
+}
+
+ul{
+    list-style: none;
+    padding: 12px 0;
+}
+
+li{
+    padding: 4px 0;
+    transition: all .2s;
+}
+
+li:hover{
+    cursor: pointer;
+    color: #999B9A;
+    transition: all .2s;
+}
+
+.lista{
+    margin: 10px 150px 10px 0;
+}
+
+.lista div{
+    color: #999B9A}
+
+#list2{
+    margin-left: 10px
+}
+
+#list3{
+    margin-left: 50px;
+}
+
+.footer2{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 120px;
+    line-height: 1.5;
+}
+
+.footer3{
+    width: 720px;
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+.footer3 p{
+    margin-bottom: 12px;
+    color: #999B9A
 }
