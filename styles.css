@@ -502,6 +502,8 @@ nav p:hover{
     gap: 38px;
 }
 
+/* para que el scrollbar funcione, presione shift mientras mueves la rueda de desplazamiento. */
+
 .divart{
     flex-shrink: 0;
     scroll-snap-align: center;
